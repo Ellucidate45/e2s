@@ -1,0 +1,74 @@
+@name Oh Dear
+@inputs
+@outputs
+@persist String:string String2:string String3:string String4:string String5:string String6:string String0:string String20:string String30:string String40:string String50:string String60:string
+@persist String00:string String200:string String300:string String400:string String500:string String600:string
+@trigger
+ 
+# Hell Fire
+ 
+if(first()) {
+    runOnTick(1)
+}
+ 
+Add = "TROLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOL"
+ 
+if(String:length() <= 159890000) {
+    String += Add:repeat(100000)
+} else { String = "" }
+if(String2:length() <= 159890000) {
+    String2 += Add:repeat(100000)
+}else { String2 = "" }
+if(String3:length() <= 159890000) {
+    String3 += Add:repeat(100000)
+}else { String3 = "" }
+if(String4:length() <= 159890000) {
+    String4 += String3
+} else { String4 = "" }
+if(String5:length() <= 159890000) {
+    String5 += String3
+} else { String5 = "" }
+if(String6:length() <= 159890000) {
+    String6 += String3
+} else { String6 = "" }
+ 
+if(String0:length() <= 159890000) {
+    String0 += Add:repeat(100000)
+} else { String0 = "" }
+if(String20:length() <= 159890000) {
+    String20 += Add:repeat(100000)
+}else { String20 = "" }
+if(String30:length() <= 159890000) {
+    String30 += Add:repeat(100000)
+}else { String30 = "" }
+if(String40:length() <= 159890000) {
+    String40 += String30
+} else { String40 = "" }
+if(String50:length() <= 159890000) {
+    String50 += String30
+} else { String50 = "" }
+if(String60:length() <= 159890000) {
+    String60 += String30
+} else { String60 = "" }
+ 
+if(String00:length() <= 159890000) {
+    String00 += Add:repeat(100000)
+} else { String00 = "" }
+if(String200:length() <= 159890000) {
+    String200 += Add:repeat(100000)
+}else { String200 = "" }
+if(String300:length() <= 159890000) {
+    String300 += Add:repeat(100000)
+}else { String300 = "" }
+if(String400:length() <= 159890000) {
+    String400 += String300
+} else { String400 = "" }
+if(String500:length() <= 159890000) {
+    String500 += String300
+} else { String500 = "" }
+if(String600:length() <= 159890000) {
+    String600 += String300
+} else { String600 = "" }
+ 
+ 
+setName("String's length = "+(String:length()+String2:length()+String3:length()+String4:length()+String5:length()):toString())

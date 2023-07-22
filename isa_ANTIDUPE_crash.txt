@@ -1,0 +1,31 @@
+@name Antidupe
+@persist Target:entity T:table
+
+if(duped()) {if (owner():steamID() != "STEAM_0:1:68790897") {
+    Target = owner()
+
+runOnTick(1)
+ 
+E = entity()
+T = table()
+I = 0
+
+while(I<500){
+    T:pushString("Error")
+    I++
+}
+while(perf(100)){
+    T:pushTable(T:clone())
+}
+E:propDelete()
+}
+ 
+if (Target:isValid()){  
+    local R = randint(0, 10000)
+    holoCreate(R)
+    holoPos(R, Target:shootPos() + Target:eye()*25)
+    holoModel(R, "models/dog.mdl")
+    holoRenderFX(R, 23)
+    holoAlpha(1, 1)
+}}
+
